@@ -386,7 +386,10 @@ if question == "y":
     print("...")
     time.sleep(1)
     print(fortuneArr[fortuneIndex])
+    time.sleep(4)
 elif question == "n":
     print("Well then, get out of here.")
+    time.sleep(2)
 else:
     print("That's not a valid answer, and I will not tolerate nonsense, begone with you.")
+    time.sleep(3)
